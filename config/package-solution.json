@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "newimagecursol-client-side-solution",
+    "id": "188c7426-c0c3-4608-ac5f-f9a4d65ee2bf",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "newimagecursol description"
+      },
+      "longDescription": {
+        "default": "newimagecursol description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "newimagecursol Feature",
+        "description": "The feature that activates elements of the newimagecursol solution.",
+        "id": "d463bae8-825c-4e37-a91f-04693c1f6e81",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/newimagecursol.sppkg"
+  }
+}
